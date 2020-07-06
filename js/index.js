@@ -123,3 +123,7 @@ contact.appendChild(newContactP1)
 const newContactP2 = document.createElement('p')
 newContactP2.textContent = 'aye first'
 contact.prepend(newContactP2)
+
+allNavLinks.forEach(greenColor => {
+  return greenColor.style.color = 'green'
+})
